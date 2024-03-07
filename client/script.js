@@ -86,7 +86,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const response = await fetch('https://chat-api-mzpj.onrender.com/', {
+    const response = await fetch('https://chat-api-ojty.onrender.com/', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
